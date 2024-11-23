@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background: rgba(0, 0, 0, 0.146);
+    display: flex;
+    height: 90px;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+.logo img{
+    width: 60px;
+    height: 60px;
+}
+.logo h1{
+    margin-top: 10px;
+}
+.search{
+    padding: 30px 10px;
+    display: flex;
+}
+.search_input{
+    padding: 10px 5px;
+    border: none;
+    border-radius: 15px;
+}
+.button_search{
+    padding: 10px 5px ;
+    border: none;
+    border-radius: 15px ;
+    width: 70px;
+    background-color: rgb(23, 48, 236);
+    cursor: pointer;
+    color: white;
+}
+nav{
+   background: #f8f7f8;
+   border-bottom: 3px solid #dfdadf;
+   display: flex;
+   justify-content: space-between;
+}
+.social ul{
+    list-style:none ;
+    margin-left:  20px ;
+}
+.social ul li{
+    float: left;
+    padding: 5px 10px ;
+    margin-top: 5px;
+}
+.social ul li a{
+   color: black;
+   transition: all 0.6s ease;
+}
+.social ul li a:hover{
+   color: rgb(1, 103, 254);
+   transform: scale(1.1);
+}
+.section ul{
+    list-style:none ;
+}
+.section ul li{
+   float: left;
+   
+   padding: 10px 20px
+}
+.section ul li a{
+  text-decoration: none;
+  transition: all 0.6s ease;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 20px;
+ 
+}
+.section ul li a:hover{
+  background: rgb(143, 207, 186);
+  transform: scale(1.1);
+}
